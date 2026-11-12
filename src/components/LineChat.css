@@ -1,0 +1,33 @@
+.lc-phone{display:flex;flex-direction:column;overflow:hidden;border-radius:28px;background:#8CABD9;
+  font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+  box-shadow:0 10px 40px rgba(0,0,0,.18);border:8px solid #1b1b1b;box-sizing:border-box}
+.lc-header{display:flex;align-items:center;gap:10px;height:52px;padding:0 14px;background:#8CABD9;color:#1f2a3a;flex:none}
+.lc-back{font-size:32px;line-height:1;margin-top:-4px}
+.lc-title{flex:1;font-weight:700;font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lc-icons{display:flex;gap:14px}
+.lc-body{flex:1;overflow-y:auto;padding:4px 10px 14px}
+.lc-date{display:flex;justify-content:center;margin:14px 0 10px}
+.lc-date span{background:rgba(0,0,0,.18);color:#fff;font-size:12px;padding:4px 12px;border-radius:12px}
+.lc-date em{font-style:normal;opacity:.9}
+.lc-row{display:flex;align-items:flex-end;margin-top:6px}
+.lc-me{justify-content:flex-end;gap:5px}
+.lc-other{align-items:flex-start;gap:8px}
+.lc-avatar-slot{width:38px;flex:none}
+.lc-avatar{width:38px;height:38px;border-radius:50%;object-fit:cover;color:#fff;font-size:15px;font-weight:600;
+  display:flex;align-items:center;justify-content:center}
+.lc-col{display:flex;flex-direction:column;min-width:0}
+.lc-name{font-size:12px;color:#33435a;margin:0 0 3px 4px}
+.lc-line{display:flex;align-items:flex-end;gap:5px}
+.lc-bubble{position:relative;max-width:240px;padding:8px 12px;border-radius:18px;font-size:15px;line-height:1.45;
+  color:#111;white-space:pre-wrap;word-break:break-word}
+.lc-bubble-other{background:#fff}
+.lc-bubble-me{background:#85E249}
+.lc-bubble-other.lc-tail{border-top-left-radius:4px}
+.lc-bubble-me.lc-tail{border-top-right-radius:4px}
+.lc-bubble-other.lc-tail::before{content:"";position:absolute;left:-6px;top:0;border:6px solid transparent;border-top-color:#fff;border-right-color:#fff}
+.lc-bubble-me.lc-tail::before{content:"";position:absolute;right:-6px;top:0;border:6px solid transparent;border-top-color:#85E249;border-left-color:#85E249}
+.lc-meta{display:flex;flex-direction:column;align-items:flex-end;font-size:10px;color:#2d3c52;line-height:1.3;flex:none}
+.lc-other .lc-meta{align-items:flex-start}
+.lc-input{display:flex;align-items:center;gap:12px;padding:8px 12px 14px;background:#fff;color:#555;flex:none;font-size:18px}
+.lc-plus{font-size:22px}
+.lc-field{flex:1;background:#f1f2f4;border-radius:18px;padding:6px 12px;font-size:14px;color:#aaa}
